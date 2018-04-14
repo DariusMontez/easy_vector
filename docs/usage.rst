@@ -29,11 +29,15 @@ Or from a length and direction::
 Working with vector components::
 
     >>> vector = V(3, 5, 7)
-    >>> vector[2]  # access componentswith subscript
+    >>> vector[2]  # access components with subscript
     7
     >>> vector[1] = 8
     >>> print(vector)
     Vector[3.000,8.000,7.000]
+    >>> vector[:2]  # take a slice of the first two components
+    [1, 2]
+    >>> (V(4,5,6) * V(7,8,9))[:2]  # in an expression
+    [28, 40]
 
 Vector math::
 
@@ -69,6 +73,8 @@ Comparing vectors::
     >>> V(1,2) == V(1,3)
     False
 
+
+
 Vectors are iterable::
 
     >>> for component in V(1.2, 5.6):
@@ -84,3 +90,7 @@ Operand type conversion::
     >>> V(4, 6) + (1, 4)
     Vector[5.000,10.000]
     
+Higher dimensions::
+
+    >>> V(1, 2, 3, 4) + V(4, 3, 2, 1)
+    Vector[5.000,5.000,5.000,5.000]
