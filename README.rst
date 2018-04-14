@@ -27,6 +27,7 @@ Vectors. Pure, Pythonic.
 * Documentation: https://easy-vector.readthedocs.io.
 
 .. include:: quickstart.rst
+.. include:: docs/quickstart.rst
 
 Features
 --------
