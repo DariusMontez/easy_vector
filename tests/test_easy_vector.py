@@ -6,7 +6,7 @@
 
 import unittest
 
-from easy_vector import easy_vector
+from easy_vector import Vector 
 
 
 class TestEasy_vector(unittest.TestCase):
