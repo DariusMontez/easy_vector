@@ -30,7 +30,14 @@ Vectors. Pure, Pythonic.
 Features
 --------
 
-* TODO
+* pure Python
+* create from components, or magnitude and direction
+* auto-calculated normals, lengths and angles
+* declarative API using operator overloading
+* unlimited dimensions
+* operand type conversion
+
+See usage for more details.
 
 Credits
 -------
