@@ -1,7 +1,7 @@
 Welcome to Easy Vector's documentation!
 ======================================
 
-.. include:: ../quickstart.rst
+.. include:: quickstart.rst
 
 .. toctree::
    :maxdepth: 2
@@ -9,7 +9,6 @@ Welcome to Easy Vector's documentation!
 
    readme
    installation
-   quickstart
    usage
    modules
    contributing

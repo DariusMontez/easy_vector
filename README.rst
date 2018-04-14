@@ -26,7 +26,7 @@ Vectors. Pure, Pythonic.
 * Free software: MIT license
 * Documentation: https://easy-vector.readthedocs.io.
 
-.. include:: ./docs/quickstart.rst
+.. include:: quickstart.rst
 
 Features
 --------
