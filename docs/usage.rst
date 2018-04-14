@@ -64,6 +64,11 @@ Normalizing a vector::
     >>> V(1, 1).normal # normalization (divide by length)
     Vector[0.707,0.707]
 
+Dot product::
+
+    >>> sum(V(2, 4) * V(2, 8)) # sum of component products. 2*2 + 4*8
+    36
+
 Comparing vectors::
 
     >>> V(6, 12) == V(6, 12)  # identity
